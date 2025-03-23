@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: #fff;
+            text-align: center;
+            padding: 3rem 0;
+            position: relative;
+        }
+
+        .header-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header-content h1 {
+            font-size: 3.5rem;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .header-content p {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        .profile-picture {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            margin-bottom: 15px;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: 400;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2.5rem;
+            margin: 2rem auto;
+            max-width: 850px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .section-content h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .download-button {
+            background: #1e3c72;
+            color: #fff;
+            padding: 0.85rem 1.7rem;
+            text-decoration: none;
+            border-radius: 30px;
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 1.2rem;
+            font-weight: 400;
+            transition: background 0.3s;
+        }
+
+        .download-button:hover {
+            background: #2a5298;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background: #222;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="profile.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>Shreeman J</h1>
+            <p>Software Developer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>Bio</h2>
+            <p>I am a passionate Software Developer with expertise in Python, Java, and JavaScript. I specialize in web development, database management, and problem-solving. With experience in Agile methodologies and version control systems like Git, I strive to build efficient and scalable applications.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="section-content">
+            <h2>Resume</h2>
+            <p><strong>Certifications:</strong></p>
+            <ul>
+                <li>Digital Marketing</li>
+                <li>Honours Diploma in Computer Application (HDCA) with A Grade</li>
+                <li>Distinction Certificate in C Programming & Programming Techniques (SUITS)</li>
+            </ul>
+            <br>
+            <p><strong>Achievements & Personal Profile:</strong></p>
+            <ul>
+                <li>Professional Service Director in Rotaract Club</li>
+                <li>Received 10+ certificates from Spell Bee (district to international level)</li>
+            </ul>
+            <br>
+            <p><strong>Technical Skills:</strong></p>
+            <ul>
+                <li>Programming Languages: Python, Java, JavaScript</li>
+                <li>Web Development: HTML, CSS, React.js</li>
+                <li>Database Management: MySQL, MongoDB</li>
+                <li>Problem Solving & Algorithmic Thinking</li>
+                <li>Version Control: Git, GitHub</li>
+                <li>Agile & Scrum Methodologies</li>
+            </ul>
+            <br>
+            <p><strong>Soft Skills:</strong></p>
+            <ul>
+                <li>Excellent Communication</li>
+                <li>Self-Confidence</li>
+                <li>Quick Learning Capability</li>
+                <li>Adaptability</li>
+                <li>Good Listener</li>
+            </ul>
+            <p>Download my resume as a PDF:</p>
+            <a href="resume.pdf" target="_blank" class="download-button">Download CV</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Shreeman J</p>
+    </footer>
+</body>
+</html>
